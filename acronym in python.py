@@ -4,7 +4,7 @@ def fxn(stng):
     oupt = stng[0]
 
     # iterate over string
-    for i in range(1, len(stng)):
+    for i in range(1, len(stng)): # This line of code means that 'i' is in between one and length of string.
         if stng[i - 1] == ' ':
             # add letter next to space
             oupt += stng[i]
@@ -21,13 +21,13 @@ inpt1 = str(input('Enter the name:'))
 print(fxn(inpt1))
 
 # input string
-inpt2 = str(input('enter the name:'))
+inpt2 = str(input('Enter the name:'))
 
 # output acronym
 print(fxn(inpt2))
 
 # input string
-inpt3 = str(input('enter the name:'))
+inpt3 = str(input('Enter the name:'))
 
 # output acronym
 print(fxn(inpt3))
